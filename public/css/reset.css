@@ -1,0 +1,21 @@
+.card  {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+
+	justify-content: flex-start;
+
+	
+}
+
+.card-header {
+	width: 100%;
+	font-size: 22px;
+	background: #fff;
+
+}
+
+input {
+	border-bottom: 1px solid #ccc;
+	border:none;
+}

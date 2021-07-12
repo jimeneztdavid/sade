@@ -1,0 +1,32 @@
+  .dataTables_paginate .paginate_button.current {
+    color: white !important;
+    background: #eaeaea !important;
+    border-color: #efefef !important;
+  }
+
+  .dataTables_paginate {
+    margin-bottom: 20px;
+  }
+
+.well {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+  .req {
+    color: red;
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .req.complete {
+    color: green;
+    text-decoration: overline;
+    transition: all 0.25s ease-in-out;
+    font-weight: bolder;
+    display: none;
+  }

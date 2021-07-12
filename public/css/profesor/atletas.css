@@ -1,0 +1,29 @@
+.lista {
+	border:1px solid #D35F5F;
+	padding:10px;
+}
+
+.lista label {
+	display: inline-block;
+	width: 100%;
+}
+
+.lista input {
+	display: inline-block;
+	width: 100%;
+}
+
+.foto {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: center;
+	margin-top: 14px;
+	margin-bottom: 14px;
+}
+
+.foto img {
+	height: 160px;
+	border:1px solid #E3DBDB;
+}
